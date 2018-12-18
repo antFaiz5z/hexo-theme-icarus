@@ -1,107 +1,178 @@
-disqus: ## Your disqus_shortname, e.g. username
-uyan: ## Your uyan_id. e.g. 1234567
-livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
-changyan: ## Your changyan appid, e.g. cyrALsXc8
-changyan_conf: ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
-gitment:
-  enable: false ## If you want to use Gitment comment system please set the value to true.
-  owner: ## Your GitHub ID, e.g. username
-  repo: ## The repository to store your comments, make sure you're the repo's owner, e.g. imsun.github.io
-  client_id: ## GitHub client ID, e.g. 75752dafe7907a897619
-  client_secret: ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
-gitalk:
-  enable: false ## If you want to use Gitment comment system please set the value to true.
-  owner:  ## Your GitHub ID, e.g. username
-  repo:  ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
-  client_id:  ## GitHub client ID, e.g. 75752dafe7907a897619
-  client_secret:  ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
-  admin:  ## Github repo owner and collaborators, only these guys can initialize github issues.
-valine: ## https://valine.js.org
-  enable: true ## If you want to use Valine comment system, please set the value to true.
-  appid: JWzS9s63dKI8w7MUQtMXwC29-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
-  appkey: YozcWe6ueB9RSrEYzGT7qLB0 ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
-  notify: true ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
-  verify: false ## Validation code.
-  placeholder: emmmm... ## Comment box placeholders.
-  avatar: 'retro' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
-  pageSize: 10 ## Number of comments per page.
-  guest_info: nick,mail ## Attributes of reviewers.
-
-google_search: false ## Use Google search, true/false.
-baidu_search: true ## Use Baidu search, true/false.
-swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
-tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
-self_search: false ## Use a jQuery-based local search engine, true/false.
-google_analytics: UA-104943569-1 ## Your Google Analytics tracking id, e.g. UA-42425684-2
-baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
-fancybox: true ## If you want to use fancybox please set the value to true.
-show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
-toc_number: true ## If you want to add list number to toc please set the value to true.
-shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
-busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
-wordcount: false ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
-widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
-canvas_nest:
-  enable: true ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
-  color: 100,99,98 ## RGB value of the color, e.g. "100,99,98"
-  opacity: 0.7 ## Transparency of lines, e.g. "0.7"
-  zIndex: -1 ## The z-index property of the background, e.g. "-1"
-  count: 150 ## Quantity of lines, e.g. "150"
-donate:
-  enable: false ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
-  github: https://github.com/antFaiz5z/donate-page ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
-  alipay_qr: /img/AliPayQR.png ## Path of Alipay QRcode image, e.g. /img/AliPayQR.png
-  wechat_qr: /img/WeChatQR.png ## Path of Wechat QRcode image, e.g. /img/WeChatQR.png
-  btc_qr: ## Path of Bitcoin QRcode image, e.g. /img/BTCQR.png
-  btc_key: ## Bitcoin key, e.g. 1KuK5eK2BLsqpsFVXXSBG5wbSAwZVadt6L
-  paypal_url: ## Paypal URL, e.g. https://www.paypal.me/tufu9441
-post_copyright:
-  enable: true ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
-  author: antFaiz5z ## Your author name, e.g. tufu9441
-  copyright_text: The author owns the copyright, please indicate the source reproduced. ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
-
-menu:
-  - page: home
-    directory: .
-    icon: fa-home
-  - page: archive
-    directory: archives/
-    icon: fa-archive
-  - page: girls
-    directory: girls/
-    icon: fa-user
-  - page: about
-    directory: about/
-    icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
-
-widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
-  - search
-  - category
-  - tag
-  - recent_posts
-  - recent_comments
-
-
-timeline:
-  - num: 1
-    word: 2014/06/12-Start
-  - num: 2
-    word: 2014/11/29-XXX
-  - num: 3
-    word: 2015/02/18-DDD
-  - num: 4
-    word: More
-
-#sitemap
-baidusitemap:
-    path: baidusitemap.xml
-
-# Static files
-js: js
-css: css
-
-# Theme version
-version: 0.0.0
+# Version of the Icarus theme that is currently used
+version: 2.0.0
+# Path or URL to the website's icon
+favicon: /images/favicon.svg
+# Path or URL to RSS atom.xml
+rss: 
+# Path or URL to the website's logo to be shown on the left of the navigation bar or footer
+logo: /images/logo.svg
+# Open Graph metadata
+# https://hexo.io/docs/helpers.html#open-graph
+open_graph:
+    # Facebook App ID
+    fb_app_id: 
+    # Facebook Admin ID
+    fb_admins: 
+    # Twitter ID
+    twitter_id: 
+    # Twitter site
+    twitter_site: 
+    # Google+ profile link
+    google_plus: 
+# Navigation bar link settings
+navbar:
+    # Navigation bar menu links
+    menu:
+        Home: /
+        Archives: /archives
+        Categories: /categories
+        Tags: /tags
+        About: /about
+    # Navigation bar links to be shown on the right
+    links:
+        Download on GitHub:
+            icon: fab fa-github
+            url: 'http://github.com/ppoffice/hexo-theme-icarus'
+# Footer section link settings
+footer:
+    # Links to be shown on the right of the footer section
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Download on GitHub:
+            icon: fab fa-github
+            url: 'http://github.com/ppoffice/hexo-theme-icarus'
+# Article display settings
+article:
+    # Code highlight theme
+    # https://github.com/highlightjs/highlight.js/tree/master/src/styles
+    highlight: atom-one-light
+    # Whether to show article thumbnail images
+    thumbnail: true
+    # Whether to show estimate article reading time
+    readtime: true
+# Search plugin settings
+# http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Search-Plugins
+search:
+    # Name of the search plugin
+    type: insight
+# Comment plugin settings
+# http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Comment-Plugins
+comment:
+    # Name of the comment plugin
+    type: 
+# Share plugin settings
+# http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Share-Plugins
+share:
+    # Share plugin name
+    type: 
+# Sidebar settings.
+# Please be noted that a sidebar is only visible when it has at least one widget
+sidebar:
+    # left sidebar settings
+    left:
+        # Whether the left sidebar is sticky when page scrolls
+        # http://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
+        sticky: false
+    # right sidebar settings
+    right:
+        # Whether the right sidebar is sticky when page scrolls
+        # http://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
+        sticky: false
+# Sidebar widget settings
+# http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
+widgets:
+    -
+        type: profile
+        position: left
+        author: Your name
+        author_title: Your title
+        location: Your location
+        avatar: 
+        gravatar: 
+        follow_link: 'http://github.com/ppoffice'
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'http://github.com/ppoffice'
+            Facebook:
+                icon: fab fa-facebook
+                url: 'http://facebook.com'
+            Twitter:
+                icon: fab fa-twitter
+                url: 'http://twitter.com'
+            Dribbble:
+                icon: fab fa-dribbble
+                url: 'http://dribbble.com'
+            RSS:
+                icon: fas fa-rss
+                url: /
+    -
+        type: toc
+        position: left
+    -
+        type: links
+        position: left
+        links:
+            Hexo: 'https://hexo.io'
+            PPOffice: 'https://github.com/ppoffice'
+    -
+        type: category
+        position: left
+    -
+        type: tagcloud
+        position: left
+    -
+        type: recent_posts
+        position: right
+    -
+        type: archive
+        position: right
+    -
+        type: tag
+        position: right
+# Other plugin settings
+plugins:
+    # Enable page animations
+    animejs: true
+    # Enable the lightGallery and Justified Gallery plugins
+    # http://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
+    gallery: true
+    # Enable the Outdated Browser plugin
+    # http://outdatedbrowser.com/
+    outdated-browser: true
+    # Enable the MathJax plugin
+    # http://ppoffice.github.io/hexo-theme-icarus/Plugins/General/mathjax-plugin/
+    mathjax: true
+    # Show the back to top button on mobile devices
+    back-to-top: true
+    # Google Analytics plugin settings
+    # http://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
+    google-analytics:
+        # Google Analytics tracking id
+        tracking_id: 
+    # Baidu Analytics plugin settings
+    # http://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Baidu-Analytics
+    baidu-analytics:
+        # Baidu Analytics tracking id
+        tracking_id: 
+    # Hotjar user feedback plugin
+    # http://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Hotjar
+    hotjar:
+        # Hotjar site id
+        site_id: 
+    # Show a loading progress bar at top of the page
+    progressbar: true
+# CDN provider settings
+# http://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
+providers:
+    # Name or URL of the JavaScript and/or stylesheet CDN provider
+    cdn: jsdelivr
+    # Name or URL of the webfont CDN provider
+    fontcdn: google
+    # Name or URL of the webfont Icon CDN provider
+    iconcdn: fontawesome
